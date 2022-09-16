@@ -22,10 +22,10 @@
 }
 
 body {
-  min-height: 100vh;
+ min-height: 100vh;
   display: flex;
-  align-items: center;
-  justify-items: center;
+align-items: center;
+justify-content: center;
   flex-direction: column;
 }
 main {
@@ -33,6 +33,7 @@ main {
 
   display: grid;
   grid-template-columns: 1fr 1fr;
+  
 }
 
 .stats {
