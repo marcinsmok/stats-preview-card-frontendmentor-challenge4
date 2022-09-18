@@ -94,6 +94,13 @@ border-radius: 1.5rem;
     border-radius: 0 1.5rem 1.5rem 0;
   }
 
+  .attribution{
+    color:aliceblue;
+  }
+
+  .attribution a{
+    color:beige;
+  }
 
   @media (max-width:80rem){
     main{
