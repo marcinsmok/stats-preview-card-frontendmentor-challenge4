@@ -32,7 +32,7 @@
         <section class="stats">
           <div class="companies">
             <p class="number">10k+</p>
-            <p clas="number-des">companies</p>
+            <p class="number-des">companies</p>
           </div>
           <div class="templates">
             <p class="number">314</p>
@@ -44,16 +44,19 @@
           </div>
         </section>
       </div>
-
-      <picture
-        srcset="./images/image-header-desktop.jpg"
-        media="(min-width:800px)"
-      >
-        <img
-          src="./images/image-header-mobile.jpg"
-          alt="people working in office"
-        />
-      </picture>
+      <div class="image">
+        <picture>
+          <source
+            srcset="./images/image-header-desktop.jpg"
+            media="(max-width: 400px)"
+          />
+          <source srcset="./images/image-header-mobile.jpg" />
+          <img
+            src="./images/image-header-desktop.jpg"
+            alt="People working in office"
+          />
+        </picture>
+      </div>
     </main>
     <footer>
       <div class="attribution">
